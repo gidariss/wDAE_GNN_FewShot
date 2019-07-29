@@ -13,7 +13,8 @@ Given an initial recognition model already trained on a set of base classes, the
 This code is released under the MIT License (refer to the LICENSE file for details).
 
 ## Contents:
-**(1)** Code for running the ImageNet-based experiments with the wDAE-GNN-based few-shot model.
+**(1)** Code for running the ImageNet-based experiments with the wDAE-GNN-based few-shot model.    
+
 **(2)** Code for running the MiniImageNet-based experiments: would be ready soon.
 
 ## Preparation
@@ -56,7 +57,7 @@ You can take a look at the [Dockerfile](./Dockerfile) if you are uncertain about
 
 Here I provide instructions for training and evaluating our method on the ImageNet based low-shot benchmark proposed by Bharath and Girshick [1].
 
-**(1)** Download the ImageNet dataset and set in [imagenet_dataset.py](https://github.com/gidariss/wDAE_GNN_FewShot/blob/master/datasets/imagenet_dataset.py#L20) the path to where the dataset resides in your machine.
+**(1)** Download the ImageNet dataset and set in [imagenet_dataset.py](https://github.com/gidariss/wDAE_GNN_FewShot/blob/master/low_shot_learning/datasets/imagenet_dataset.py#L19) the path to where the dataset resides in your machine.
 
 **(2)** Train a ResNet10 based recognition model with cosine similarity-based classifier [3]:     
 ```bash
