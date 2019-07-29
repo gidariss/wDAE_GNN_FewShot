@@ -1,0 +1,8 @@
+./experiments
+./experiments/*
+./datasets
+*~
+*.pyc
+*.pkl
+data/IMAGENET
+.remote-sync.json
