@@ -73,7 +73,7 @@ $ unzip imagenet_ResNet10CosineClassifier.zip
 $ cd ..
 ```
 
-**(3)** Extract and save the ResNet10 features (with the above mode; step (2)) from images of the ImageNet dataset:    
+**(3)** Extract and save the ResNet10 features (with the above model; see step (2)) from images of the ImageNet dataset:    
 ```bash
 # Run from the wDAE_GNN_FewShot directory
 # Extract features from the validation image split of the Imagenet.
